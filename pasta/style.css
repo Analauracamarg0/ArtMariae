@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #220d6c;
+}
+
+header {
+    background-color: #59afff;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #59afff;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    padding: 14px 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: #7083ff;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e2e2e2;
+}
+
+.cta-btn {
+    display: inline-block;
+    background-color: #7ca5ff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.cta-btn:hover {
+    background-color: #99b5f0;
+}
+
+.products {
+    padding: 20px;
+}
+
+.product-grid {
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
+}
+
+.product-item {
+    background-color: rgb(159, 181, 253);
+    border: 1px solid rgb(159, 181, 253);
+    padding: 50px;
+    text-align: center;
+}
+
+.product-item img {
+    max-width: 300%;
+    height: 350px;
+    width: 350px;
+}
+
+.product-item .btn {
+    display: inline-block;
+    background-color: #7dbcff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.product-item .btn:hover {
+    background-color: #59afff;
+}
+
+footer {
+    background-color: #59afff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact form input,
+.contact form textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #a4cfff;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.contact form button {
+    background-color: #007bff;
+    color: rgb(175, 248, 255);
+    padding: 10px;
+    border-width: 100;
+    
+}
